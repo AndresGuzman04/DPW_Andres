@@ -1,0 +1,30 @@
+body.light-theme {
+    background-color: white;
+    color: black;
+}
+
+body.dark-theme{
+    background-color: black;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3d ease;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
